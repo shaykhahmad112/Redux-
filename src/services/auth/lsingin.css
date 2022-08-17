@@ -1,0 +1,264 @@
+
+ @media screen and (max-width: 480px) {
+    .date{
+      margin-right: 50px;
+    }} 
+  
+  .inpfield{
+    text-align: center;
+  }
+  /* .container {
+  border:1px solid #C0C0C0;
+  margin-top: 0;
+  
+  } */
+  
+  
+  .test
+  {color:white;
+  margin-left: 40%;}
+  
+  .test ul li a{color:white;}
+  .thumb{margin-top: 80px;}
+  
+  .bothbtn{
+  margin-top: 6%;
+  margin-left: 70%;
+  }
+  
+  .gap{
+  column-gap: 50px;
+  display: flex;
+  }
+  
+  .plusbtn{
+  margin-top: 27px;
+  color:white;
+  }
+  
+  
+  .allbtn {
+  
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  
+  } 
+  
+  
+  /* Form Css */
+  
+  /* .container {
+    padding: 2rem 0rem;
+  } */
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+  .table-image 
+    td, th {
+      vertical-align: middle;
+    }
+  
+  
+  .tb_title{ 
+    
+    background-color:#6495ed; 
+    color:white;
+    text-align: center;}
+  
+  
+  /* Six Buttons Designs */
+  
+  .btn_right{
+  float:right;
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-color: green;
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  }
+  
+  
+  .btn_left{
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-color: red;
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+    }
+    
+  .bn_submit{
+  border: 5em;
+  outline: none;
+    
+  background-color: #7b68ee	;
+  height:30px;
+  width:90px;
+  border-radius:65px;
+     }
+     .bn_cancel{
+      border: 5em;
+      outline: none; 
+      background-color:#ff0000;
+      height:30px;
+      width:90px;
+      border-radius:65px;
+  
+         }
+  
+         /* Group Buttons Css */
+  
+         .btn-group .button  {
+          border: 5em; 
+          background-color: #6495ed;
+          /* border: 1px solid white; */
+          color: white;
+          padding: 15px 50%;
+          text-align: center;
+          text-decoration: none;
+          /* display: inline-block; */
+          font-size: 16px;
+          /* border-radius: 65px; */
+          margin-top: 0;
+          width: 100%px;
+        outline: none;
+  
+        }
+        .btn-group{display: flexbox;}
+        .thumb
+        {  
+        margin-top: 0;
+      }      
+  
+       h4{
+         color: #6495ed;
+         margin-left: 22%;
+         }
+        .btn-group{  
+        /* margin-left:34%; */
+        margin-bottom: 10px;
+        border: none;
+        }
+        
+        
+        .btn-group .button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        .btn-group .button:hover {
+          background-color: yellowgreen;
+        }
+  
+        /* Account Modal  CSS */
+  
+        .input_single_line {
+          border-top-style: hidden;
+          border-right-style: hidden;
+          border-left-style: hidden;
+          border-bottom-style: groove;
+          
+        }
+        
+        .no-outline:focus {
+          outline: none;
+        }
+  
+  
+  /* 
+        Acoount Modal CSS */
+  
+        .get-in-touch {
+          max-width: 800px;
+          margin: 50px auto;
+          position: relative;
+        
+        }
+        .get-in-touch .title {
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-size: 3.2em;
+          line-height: 48px;
+          padding-bottom: 48px;
+             /* color: #5543ca;
+            background: #5543ca; */
+            background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+            background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+            background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+            -webkit-text-fill-color: transparent !important;
+        }
+        
+        .contact-form .form-field {
+          position: relative;
+          margin: 20px 0;
+          margin-left: 30px;
+        }
+        .contact-form .input-text {
+          display: block;
+          width: 100%;
+          height: 36px;
+          border-width: 0 0 2px 0;
+          border-color:#C0C0C0;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 400;
+        }
+        .contact-form .input-text:focus {
+          outline: none;
+        }
+        .contact-form .input-text:focus + .label,
+        .contact-form .input-text.not-empty + .label {
+          -webkit-transform: translateY(-24px);
+                  transform: translateY(-24px);
+        }
+        .contact-form .label {
+          position: absolute;
+          left: 20px;
+          bottom: 11px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 400;
+          color:#C0C0C0;
+          cursor: text;
+          transition: -webkit-transform .2s ease-in-out;
+          transition: transform .2s ease-in-out;
+          transition: transform .2s ease-in-out, 
+          -webkit-transform .2s ease-in-out;
+        }
+        .contact-form .submit-btn {
+          display: inline-block;
+          background-color: #000;
+           background-image: linear-gradient(125deg,#a72879,#064497);
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: 16px;
+          padding: 8px 16px;
+          border: none;
+          width:200px;
+          cursor: pointer;
+        }
+        
+        
+  
